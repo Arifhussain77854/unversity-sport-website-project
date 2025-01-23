@@ -1,0 +1,152 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #0056b3;
+    color: white;
+  }
+  
+  header .logo img {
+    width: 150px;
+  }
+  
+  .navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #007bff;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+  }
+  
+  /* Players Section */
+  .players {
+    padding: 40px 20px;
+    background: #f9f9f9;
+  }
+  
+  .players h2 {
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 30px;
+  }
+  
+  .player-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .player-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    width: 250px;
+  }
+  
+  .player-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .player-card h3 {
+    color: #0056b3;
+    margin-bottom: 10px;
+  }
+  
+  .player-card ul {
+    list-style: square;
+    text-align: left;
+  }
+  
+  /* Gallery Section */
+  .gallery {
+    padding: 40px 20px;
+  }
+  
+  .gallery h2 {
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 20px;
+  }
+  
+  .gallery .images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .gallery .images img {
+    width: 250px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 8px;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 40px 20px;
+    text-align: center;
+    background: #e0f7fa;
+    border-top: 2px solid #ddd;
+  }
+  
+  .about h2 {
+    color: #0056b3;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #0056b3;
+    color: white;
+    margin-top: 20px;
+  }
+  

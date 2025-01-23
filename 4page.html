@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wimbledon - The Prestigious Tennis Tournament</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <h1>Wimbledon</h1>
+      <p>The Prestigious Tennis Tournament</p>
+    </div>
+  </header>
+
+  <!-- Main Content Section -->
+  <section class="main-content">
+    <h2>About Wimbledon</h2>
+    <p>Wimbledon is one of the oldest and most prestigious tennis tournaments in the world. Held annually in London, it attracts the best tennis players from across the globe.</p>
+
+    <div class="image-gallery">
+      <img src="wimbl img.jpeg" alt="Wimbledon Logo">
+      <img src="center court.jpeg" alt="Wimbledon Centre Court">
+      <img src="wim gro.jpeg" alt="Wimbledon Grounds">
+    </div>
+  </section>
+
+  <!-- History Section -->
+  <section class="history">
+    <h2>History of Wimbledon</h2>
+    <p>Founded in 1877, Wimbledon is the only Grand Slam tournament played on grass courts. Over the years, it has become a symbol of tradition, sportsmanship, and excellence.</p>
+    <p>Wimbledon has seen some unforgettable moments in tennis history, including historic rivalries, record-breaking performances, and moments of pure drama.</p>
+  </section>
+
+  <!-- Famous Players Section -->
+  <section class="famous-players">
+    <h2>Famous Players</h2>
+    <p>Many of tennis' greatest players have graced the courts of Wimbledon. Some of the most famous include:</p>
+    <ul>
+      <li><strong>Roger Federer</strong> - With 8 Wimbledon titles, Federer is the most successful male player in the tournament's history.</li>
+      <li><strong>Serena Williams</strong> - One of the most dominant female players, Serena has won 7 Wimbledon singles titles.</li>
+      <li><strong>Martina Navratilova</strong> - With 9 Wimbledon singles titles, Martina is a true legend of the sport.</li>
+      <li><strong>Venus Williams</strong> - Venus has claimed 5 Wimbledon singles titles, cementing her place as one of the greats.</li>
+    </ul>
+  </section>
+
+  <!-- Schedule Section -->
+  <section class="schedule">
+    <h2>Wimbledon Schedule</h2>
+    <p>The Wimbledon tournament usually takes place in late June to early July. Below is the typical schedule:</p>
+    <ul>
+      <li><strong>Qualifying Rounds:</strong> Early June</li>
+      <li><strong>First Round:</strong> Late June</li>
+      <li><strong>Finals:</strong> First week of July</li>
+    </ul>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Wimbledon. All Rights Reserved.</p>
+    <p>Website created for educational purposes.</p>
+  </footer>
+
+  <!-- Simple JS for Interactivity (Image Hover Effect) -->
+  <script>
+    const images = document.querySelectorAll('img');/*it dispalys the images into a single line list  */
+    images.forEach(image => {/*it hover a image*/
+      image.addEventListener('mouseover', () => {  /* when cursor come the image expend*/
+        image.style.transform = "scale(1.1)";/* it exprnd the image*/
+        image.style.transition = "transform 0.3s ease";/*image shows after 0.3 sec */
+      });
+      image.addEventListener('mouseout', () => {/*when curser moves out the back to original positon   */
+        image.style.transform = "scale(1)";/* transform  image to 1.1x to 1x */
+      });
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="International Olympic Committee (IOC) Information">
+    <title>International Olympic Committee</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        .content div {
+            width: 48%;
+        }
+        .content img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .image-description {
+            text-align: center;
+            font-size: 14px;
+            color: #555;
+            margin-top: 10px;
+        }
+        h2 {
+            color: #003366;
+            font-size: 28px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .scroll-top {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .scroll-top button {
+            padding: 12px 20px;
+            background-color: #003366;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .scroll-top button:hover {
+            background-color: #0055a5;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .card h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #003366;
+        }
+        .card p {
+            font-size: 16px;
+            color: #333;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .image-container .image-item {
+            width: 48%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>International Olympic Committee (IOC)</h1>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h3>What is the IOC?</h3>
+        <p>The International Olympic Committee (IOC) is the organization responsible for the governance of the Olympic Movement. It works to promote Olympism globally by organizing the Olympic Games and fostering the development of sport across nations.</p>
+    </div>
+
+    <div class="content">
+        <div>
+            <h2>About IOC</h2>
+            <p>The IOC was established in 1894 by Pierre de Coubertin and is dedicated to promoting the Olympic ideals of fair play, peace, and the inclusion of athletes from all nations. The IOC's primary mission is to organize the Olympic Games and oversee the activities of the National Olympic Committees (NOCs) and International Federations (IFs).</p>
+        </div>
+        <div class="image-container">
+            <div class="image-item">
+                <img src="ioc logo.jpeg" alt="IOC Logo">
+                <p class="image-description">The IOC logo symbolizes the union of the five inhabited continents through the five rings. The rings represent the universality of the Olympic Movement.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="image-container">
+            <div class="image-item">
+                <img src="ogpi.webp" alt="Olympic Games Pictogram">
+                <p class="image-description">The Olympic Games pictogram features symbols representing various Olympic sports. It is used for easy identification and to showcase the diversity of sports in the Games.</p>
+            </div>
+        </div>
+        <div>
+            <h2>History of the IOC</h2>
+            <p>Founded in 1894, the IOC has played a critical role in the development of the Olympic Games and the promotion of Olympic values worldwide. The first modern Olympic Games were held in 1896 in Athens, Greece. The IOC continues to be a driving force in international sports and global diplomacy.</p>
+        </div>
+    </div>
+    
+    <div class="scroll-top">
+        <button onclick="scrollToTop()">Back to Top</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 International Olympic Committee. All Rights Reserved.</p>
+</footer>
+
+<script>
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+</script>
+
+</body>
+</html>
